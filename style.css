@@ -1,0 +1,422 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+header .container-wrapper {
+  background: white;
+}
+
+header .container {
+  margin: 0 auto;
+  max-width: 1000px;
+  /* height: 400px; */
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.container .logo {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+ul {
+  list-style-type: none;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+
+header {
+  padding: 20px 0;
+  position: sticky;
+}
+header .menu {
+  display: flex;
+  flex-wrap: wrap;
+  transform: column;
+}
+header logo .img {
+  width: 15px;
+}
+header .logo a {
+  flex-wrap: wrap;
+  align-items: center;
+  font-size: 14px;
+  color: rgba(84, 91, 232, 1);
+}
+header .menu ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+header .menu ul a {
+  color: rgba(16, 25, 40, 1);
+  font-size: 14px;
+  font-weight: 400px;
+}
+header .button {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+header .button .login {
+  border-color: rgba(84, 91, 232, 1);
+  border-radius: 10px;
+  color: rgba(84, 91, 232, 1);
+  background-color: #fff;
+  font-weight: 1000;
+  width: 100px;
+  padding: 8px 16px;
+  border-style: solid;
+  border-width: thin;
+  text-align: center;
+  font-size: 12px;
+}
+header .button .register {
+  background-color: rgba(84, 91, 232, 1);
+  color: #fff;
+  border-radius: 10px;
+  font-weight: 800;
+  width: 100px;
+  padding: 8px 16px;
+  text-align: center;
+  font-size: 12px;
+}
+
+main .second {
+  margin-top: 50px;
+  height: 400px;
+  padding: 50px 240px;
+  margin: 0 auto;
+}
+main .second .paragraph {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 24px;
+  width: 500px;
+}
+main .second text {
+  color: rgba(84, 91, 232, 1);
+}
+main .second h2 {
+  font-size: 50px;
+  font-weight: 2000;
+}
+main .second .course {
+  color: rgba(84, 91, 232, 1);
+}
+
+main .second h5 {
+  color: rgba(84, 91, 232, 1);
+  font-weight: 500;
+}
+main .second span course {
+  font-size: 48px;
+}
+main .second p {
+  color: rgba(150, 150, 150, 1);
+  font-size: 14px;
+}
+main .second .paragraph .btn-main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  text-align: center;
+}
+main .second .paragraph .register {
+  background-color: rgba(84, 91, 232, 1);
+  color: #fff;
+  width: 100px;
+  padding: 8px 20px;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 550;
+}
+main .second .video {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 200px;
+}
+main .second .video .play {
+  width: 15%;
+}
+main .second .video a {
+  color: black;
+  font-weight: 700;
+  font-size: 14px;
+}
+main .second .girl img {
+  display: flex;
+  top: 120px;
+  left: 850px;
+  position: absolute;
+  width: 400px;
+}
+main .benefit .row {
+  align-items: flex-start;
+  padding: 10px 240px;
+  height: 300px;
+}
+main .benefit .first-section {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 5px;
+  width: 400px;
+  top: 0px;
+}
+main .benefit .first-section h2 {
+  color: rgba(84, 91, 232, 1);
+  font-weight: 300;
+  font-size: 20px;
+}
+main .benefit .first-section h1 {
+  color: black;
+  font-size: 40px;
+  font-weight: 5000;
+}
+main .benefit .first-section .desc {
+  color: rgba(150, 150, 150, 1);
+  font-size: 14px;
+}
+main .benefit .second-section {
+  width: 550px;
+  position: absolute;
+  left: 700px;
+  top: 600px;
+}
+main .benefit .card-benefit {
+  display: flex;
+  flex-wrap: wrap;
+  width: 170px;
+  height: 150px;
+  background-color: rgba(84, 91, 232, 1);
+  padding: 25px 18px;
+  gap: 20px;
+  border-radius: 10px;
+  align-items: center;
+}
+main .benefit .second-section .card-benefit .title {
+  font-size: 16px;
+  color: #fff;
+}
+main .benefit .second-section .card-benefit .teacher {
+  width: 50px;
+}
+main .benefit .second-section .card-benefit .desc {
+  font-size: 12px;
+  color: rgba(221, 221, 221, 1);
+  padding-top: 10px;
+}
+main .benefit .card-benefit2 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 170px;
+  height: 150px;
+  background-color: rgba(84, 91, 232, 1);
+  padding: 25px 18px;
+  gap: 10px;
+  border-radius: 10px;
+  align-items: center;
+  position: absolute;
+  left: 225px;
+  top: 1px;
+}
+main .benefit .second-section .card-benefit2 .title2 {
+  font-size: 16px;
+  color: #fff;
+}
+main .benefit .second-section .card-benefit2 .certificate {
+  width: 50px;
+}
+main .benefit .second-section .card-benefit2 .desc2 {
+  font-size: 12px;
+  color: rgba(221, 221, 221, 1);
+  padding-top: 10px;
+}
+main .benefit .card-benefit3 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 170px;
+  height: 150px;
+  background-color: rgba(84, 91, 232, 1);
+  padding: 25px 18px;
+  gap: 10px;
+  border-radius: 10px;
+  align-items: center;
+  position: absolute;
+  left: 450px;
+  top: 1px;
+}
+main .benefit .second-section .card-benefit3 .title3 {
+  font-size: 16px;
+  color: #fff;
+}
+main .benefit .second-section .card-benefit3 .learning {
+  width: 50px;
+}
+main .benefit .second-section .card-benefit3 .desc3 {
+  font-size: 12px;
+  color: rgba(221, 221, 221, 1);
+  padding-top: 10px;
+}
+main .benefit .second-section .arrow {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+  padding-top: 20px;
+}
+main .benefit .second-section .arrow .left {
+  display: flex;
+  gap: 10px;
+  width: 5%;
+}
+main .benefit .second-section .arrow .right {
+  display: flex;
+  gap: 10px;
+  width: 5%;
+}
+main .selected-course .container {
+  background-image: linear-gradient(
+    180deg,
+    rgba(84, 91, 232, 1),
+    rgba(39, 45, 176, 1)
+  );
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  height: 500px;
+}
+main .selected-course .container .group-study {
+  width: 400px;
+}
+main .selected-course .container .study {
+  width: 250%;
+  padding-left: 220px;
+  padding-top: 30px;
+  width: 400px;
+}
+main .selected-course .information {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 20px;
+  width: 800px;
+}
+main .selected-course .information h2 {
+  color: rgba(240, 201, 50, 1);
+  font-weight: 200px;
+  padding: 0 50px;
+}
+main .selected-course .information h1 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 1500;
+  padding: 0 50px;
+  width: 400px;
+}
+main .selected-course p {
+  color: rgba(221, 221, 221, 1);
+  padding: 0 50px;
+  width: 400px;
+}
+main .selected-course analytic {
+  padding: 20px 20px;
+  gap: 20px;
+  width: 100px;
+}
+main .selected-course ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 600px;
+  padding: 20px 0px;
+}
+main .selected-course ul li {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0px;
+}
+main .selected-course ul li .number {
+  color: rgba(240, 201, 50, 1);
+  font-size: 20px;
+  font-weight: 1000;
+}
+main .selected-course ul li .info {
+  color: rgba(221, 221, 221, 1);
+  padding: 0 50px;
+}
+footer {
+  background-color: rgba(57, 62, 70, 1);
+  padding: 80px 80px;
+  color: rgba(255, 255, 255, 1);
+  height: 200px;
+}
+footer a {
+  color: rgba(255, 255, 255, 1);
+}
+
+footer .row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.footer-section1 {
+  width: 380px;
+}
+footer .footer-section1 p {
+  font-size: 14px;
+  color: rgba(244, 244, 244, 1);
+  padding: 40px 0;
+  font-weight: 100;
+}
+footer .footer-section1 .sosmed {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+footer .footer-section2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 70px;
+  font-size: 14px;
+  padding-left: 200px;
+}
+footer .footer-section2 .type {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 30px;
+}
+footer .footer-section2 ul a {
+  font-size: 14px;
+  color: rgba(244, 244, 244, 1);
+  font-weight: 200;
+}
+footer .footer-section2 h2 {
+  font-size: 16px;
+  font-weight: 500;
+}
+footer .footer-section2 ul {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 10px;
+}
