@@ -3,11 +3,11 @@
   margin: 0;
   padding: 0;
 }
-header .container-wrapper {
+.container-wrapper {
   background: white;
 }
 
-header .container {
+.navbar .container {
   margin: 0 auto;
   max-width: 1000px;
   /* height: 400px; */
@@ -16,7 +16,7 @@ header .container {
   justify-content: space-between;
   flex-wrap: wrap;
 }
-.container .logo {
+.navbar .container .logo {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -32,41 +32,40 @@ a {
   text-decoration: none;
 }
 
-header {
+.navbar {
   padding: 20px 0;
   position: sticky;
 }
-header .menu {
+.navbar .menu {
   display: flex;
   flex-wrap: wrap;
   transform: column;
 }
-header logo .img {
+.navbar logo .img {
   width: 15px;
 }
-header .logo a {
+.navbar .logo a {
   flex-wrap: wrap;
   align-items: center;
   font-size: 14px;
   color: rgba(84, 91, 232, 1);
 }
-header .menu ul {
+.navbar .menu ul {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
 }
-header .menu ul a {
+.navbar .menu ul a {
   color: rgba(16, 25, 40, 1);
   font-size: 14px;
   font-weight: 400px;
 }
-header .button {
+.navbar .button {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
 }
-
-header .button .login {
+.navbar .button .login {
   border-color: rgba(84, 91, 232, 1);
   border-radius: 10px;
   color: rgba(84, 91, 232, 1);
@@ -79,7 +78,7 @@ header .button .login {
   text-align: center;
   font-size: 12px;
 }
-header .button .register {
+.navbar .button .register {
   background-color: rgba(84, 91, 232, 1);
   color: #fff;
   border-radius: 10px;
@@ -95,6 +94,7 @@ main .second {
   height: 400px;
   padding: 50px 240px;
   margin: 0 auto;
+  background-color: rgba(245, 245, 245, 1);
 }
 main .second .paragraph {
   display: flex;
@@ -107,7 +107,7 @@ main .second text {
   color: rgba(84, 91, 232, 1);
 }
 main .second h2 {
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 2000;
 }
 main .second .course {
@@ -165,7 +165,7 @@ main .second .girl img {
 }
 main .benefit .row {
   align-items: flex-start;
-  padding: 10px 240px;
+  padding: 30px 240px;
   height: 300px;
 }
 main .benefit .first-section {
@@ -207,6 +207,7 @@ main .benefit .card-benefit {
   border-radius: 10px;
   align-items: center;
 }
+
 main .benefit .second-section .card-benefit .title {
   font-size: 16px;
   color: #fff;
@@ -362,6 +363,201 @@ main .selected-course ul li .info {
   color: rgba(221, 221, 221, 1);
   padding: 0 50px;
 }
+main .available-course .row {
+  align-items: flex-start;
+  gap: 50px;
+  padding: 30px 20px;
+  padding-left: 250px;
+  display: flex;
+}
+main .available-course .section-part1 {
+  width: 650px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+main .available-course .course-item {
+  width: 300px;
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0px 20px 15px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+}
+main .available-course .course-item .course-card {
+  width: 100%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  position: relative;
+  top: 0;
+  overflow: hidden;
+}
+main .available-course .course-item .course-info {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 75%, #000 100%);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 15px 0px;
+}
+
+main .available-course .course-item .best {
+  font-size: 14;
+  font-weight: 600;
+  text-align: center;
+  width: 100px;
+  background-color: rgba(84, 91, 232, 1);
+  color: rgba(255, 255, 255, 1);
+  padding: 8px 0px;
+  align-self: flex-start;
+}
+main .available-course .course-item .price {
+  font-size: 20px;
+  font-weight: 900;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  align-self: flex-end;
+  padding: 20px 20px;
+}
+main .available-course .course-item img {
+  width: 100%;
+  display: block;
+}
+
+main .available-course .course-item .detail {
+  padding: 15px;
+  height: 100px;
+}
+main .available-course .course-item .detail .first-row {
+  align-items: center;
+  padding: 4px;
+  width: 300px;
+  display: flex;
+}
+main .available-course .course-item .detail .second-row {
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 10px 4px;
+}
+main .available-course .course-item .detail h2 {
+  font-weight: 700;
+  font-size: 20px;
+  width: 150px;
+}
+main .available-course .course-item .detail .views {
+  color: rgba(84, 91, 232, 1);
+  font-size: 12px;
+  font-weight: 400;
+  width: 100px;
+  padding-left: 50px;
+}
+main .available-course .course-item .detail span {
+  color: rgba(150, 150, 150, 1);
+}
+
+main .available-course .section-part2 {
+  width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 20px;
+}
+
+main .available-course .section-part2 .available {
+  color: rgba(84, 91, 232, 1);
+}
+main .available-course .section-part2 h2 {
+  font-weight: 2000;
+  font-size: 36px;
+}
+main .available-course .section-part2 .description {
+  color: rgba(150, 150, 150, 1);
+  font-size: 14px;
+}
+main .available-course .section-part2 .see-all {
+  width: 100px;
+  height: auto;
+  text-align: center;
+  font-weight: 600;
+  border-radius: 5px;
+  background-color: rgba(84, 91, 232, 1);
+  color: rgba(255, 255, 255, 1);
+  padding: 8px 12px;
+}
+main .testimoni {
+  padding: 50px 0px;
+}
+main .testimoni .testi-title {
+  font-size: 32px;
+  font-weight: 600;
+  font-family: "Mada", sans-serif;
+  text-align: center;
+  align-items: center;
+}
+main .testimoni .list-testimoni {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 20px 0px;
+  align-items: center;
+}
+main .testimoni .card-testi {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background: #ffffff;
+  padding: 30px 50px;
+  padding-left: 250px;
+  gap: 30px;
+}
+main .testimoni .profile-testi {
+  width: 450px;
+  height: 250px;
+  flex-shrink: 0;
+  background: var(--White-color, #fff);
+  box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.1);
+  padding: 24px 30px;
+}
+
+main .testimoni .profile-testi img {
+  width: 50px;
+  height: 50px;
+}
+main .testimoni .profile-testi .rate img {
+  width: 20px;
+  height: 20px;
+  padding: 10px 0px;
+}
+main .testimoni .profile-testi .user {
+  display: flex;
+}
+main .testimoni .profile-testi .user .name {
+  padding: 0px 12px;
+  color: #000;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+main .testimoni .profile-testi .user .role {
+  color: var(--Medium, #969696);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+main .testimoni .profile-testi .testi-text {
+  color: var(--Medium-Dark, #646464);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
 footer {
   background-color: rgba(57, 62, 70, 1);
   padding: 80px 80px;
@@ -379,6 +575,7 @@ footer .row {
 }
 .footer-section1 {
   width: 380px;
+  padding-left: 150px;
 }
 footer .footer-section1 p {
   font-size: 14px;
@@ -397,7 +594,7 @@ footer .footer-section2 {
   justify-content: space-between;
   gap: 70px;
   font-size: 14px;
-  padding-left: 200px;
+  padding-left: 100px;
 }
 footer .footer-section2 .type {
   display: flex;
